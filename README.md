@@ -1,2 +1,2 @@
 # misc
-Philips Hue misc
+Various stuff
