@@ -15,6 +15,6 @@ sudo apt-get install git libcppunit-dev libcppunit-1.13-0 uuid-dev pkg-config li
  sudo nano /etc/rc.local
 
 Add the following line before the line exit 0 at the end, then save the file and exit:  
-su olad -l 3 & - user
+echo 'Sleep 15 seconds before starting olad' sleep 15 echo 'Starting olad' sudo -u user olad -f --syslog
 
 sudo adduser user dialout
