@@ -1,4 +1,6 @@
 <?php
+# Requirements: php-simple-proxy, http://github.com/cowboy/php-simple-proxy
+#
 # Include configuration file
 include_once "config.php";
 ?>
