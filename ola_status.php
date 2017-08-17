@@ -1,6 +1,6 @@
 <?php
 include_once "config.php";
-$requesturl="http://$olahostname/json/server_stats";;
+$requesturl="http://$olahostname/json/server_stats";
 $ch=curl_init($requesturl);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $cexecute=curl_exec($ch);
