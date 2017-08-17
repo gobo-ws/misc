@@ -1,37 +1,22 @@
 <?php
-# Requirements: php-simple-proxy, http://github.com/cowboy/php-simple-proxy
-#
-# Include configuration file
 include_once "config.php";
+$requesturl="http://$olahostname/json/server_stats";;
+$ch=curl_init($requesturl);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$cexecute=curl_exec($ch);
+curl_close($ch);
+$result = json_decode($cexecute,true);
 ?>
 
 <!DOCTYPE html>
 <html>
- 
-<head>
+ <head>
   <title>OLA Status</title>
 </head>
  
 <body>
- 
-  <script>
-	  var xhr = new XMLHttpRequest();
-	  xhr.open('GET', "ba-simple-proxy.php?url=http://<?php echo $olahostname; ?>/json/server_stats", true);
-	  xhr.send();
-	  xhr.addEventListener("readystatechange", processRequest, false);
-	  function processRequest(e) {
-		  
-	  }
-	  function processRequest(e) {
-		  if (xhr.readyState == 4 && xhr.status == 200) {
-			  var response = JSON.parse(xhr.responseText);
-		document.getElementById("instance_name").innerHTML = response.contents.instance_name;
-		document.getElementById("version").innerHTML = response.contents.version ;
-		document.getElementById("up_since").innerHTML = response.contents.up_since ;
-		 }} 
- </script>
-<p id="instance_name"></p>running version <p id="version"></p> up since<p id="up_since"></p>
+<h1>OLA Status</h1>
+<div>Running version: <?php echo $result['version']; ?><br>Up since: <?php echo $result['up_since']; ?></div>
 
 </body>
- 
 </html>
