@@ -1,4 +1,4 @@
-**OLA on RPi 3 (Raspbian Stretch)
+**OLA on RPi 3 (Raspbian Stretch)**
 
 sudo apt-get update  
 sudo apt-get upgrade  
