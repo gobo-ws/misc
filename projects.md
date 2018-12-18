@@ -1,6 +1,6 @@
 ## OLA Trigger configuration files: 
 
-* **[ola-trigger-hue-dmx](../ola-trigger-hue-dmx)** - Control ZigBee lights like Philips Hue and Osram (LEDVANCE) Lightify/Smart+ products with DMX
+* **[ola-trigger-hue-dmx](https://github.com/gobo-ws/ola-trigger-hue-dmx)** - Control ZigBee lights like Philips Hue and Osram (LEDVANCE) Lightify/Smart+ products with DMX
 * **ola-trigger-rgb-hue-dmx** - Control Philips Hue color lights with DMX
 * **ola-trigger-ikea-tradfri-dmx** - Control IKEA Trådfri lights & control outlets with DMX
 * **ola-trigger-crelay-dmx** - Control relays with DMX
