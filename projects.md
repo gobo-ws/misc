@@ -15,3 +15,4 @@
 * **OLA RDM PHP** - Webpage that lists RDM devices on a specific universe *(unpublished)*
 * **OLA playback page** - Webpage with buttons for controlling DMX values and recordings *(unpublished)*
 * **Dansstopp** - Webpage with a playback panel for Spotify with the opportunity to set different DMX values upon play & pause *(Used on my daughter's birthday party, unpublished)*
+* [**50x50 mm aDapter for PowerCON**](50x50_mm_aDapter_pub.pdf) - Product idea, PowerCON socket adapter for retrofit applications
