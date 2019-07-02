@@ -1,4 +1,4 @@
-**OLA on RPi 4 (Raspbian Buster Lite)**
+**OLA on RPi 4 (Raspbian Buster Lite)*
 
 sudo apt-get update  
 sudo apt-get upgrade  
