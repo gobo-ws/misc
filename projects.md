@@ -6,7 +6,7 @@
 * **[ola-trigger-crelay-dmx](https://github.com/gobo-ws/ola-trigger-crelay-dmx)** - Control relays with DMX
 * **[ola-trigger-led-puck-lirc-dmx](https://github.com/gobo-ws/ola-trigger-led-puck-lirc-dmx)** - Control IR IP68 LED Pucks with DMX
 * **[ola-trigger-lirc-dmx](https://github.com/gobo-ws/ola-trigger-lirc-dmx)** - OLA trigger config to be used with LIRC to send infra-red commands using DMX
-* **DMX-Hue scene bridge** - Run Philips Hue scenes on multiple bridges simultaneously *(unpublished)*
+* **ola-trigger-dmx-hue-scene-bridge** - Run Philips Hue scenes on multiple bridges simultaneously *(unpublished)*
 
 ## Various projects:   
 
