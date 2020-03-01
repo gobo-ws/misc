@@ -1,0 +1,153 @@
+[
+    {
+        "id": "1cf56466.e6ceb4",
+        "type": "tab",
+        "label": "Dansstopp",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f7ae0475.395018",
+        "type": "spotify",
+        "z": "1cf56466.e6ceb4",
+        "name": "Play",
+        "auth": "e7e266d2.a9adf8",
+        "api": "play",
+        "x": 490,
+        "y": 140,
+        "wires": [
+            [
+                "83cff46a.4cc268"
+            ]
+        ]
+    },
+    {
+        "id": "d2ecd135.dd21d",
+        "type": "spotify",
+        "z": "1cf56466.e6ceb4",
+        "name": "Pause",
+        "auth": "e7e266d2.a9adf8",
+        "api": "pause",
+        "x": 490,
+        "y": 200,
+        "wires": [
+            [
+                "7e74200e.92f59"
+            ]
+        ]
+    },
+    {
+        "id": "1459a752.84ad91",
+        "type": "flic",
+        "z": "1cf56466.e6ceb4",
+        "name": "Flic click",
+        "button": "250179c3.00638e",
+        "event": "ButtonClick",
+        "topic": "flic",
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "f7ae0475.395018"
+            ]
+        ]
+    },
+    {
+        "id": "c12ebc7b.f56238",
+        "type": "flic",
+        "z": "1cf56466.e6ceb4",
+        "name": "Flic button hold",
+        "button": "250179c3.00638e",
+        "event": "ButtonHold",
+        "topic": "flic",
+        "x": 320,
+        "y": 200,
+        "wires": [
+            [
+                "d2ecd135.dd21d"
+            ]
+        ]
+    },
+    {
+        "id": "83cff46a.4cc268",
+        "type": "hue-scene",
+        "z": "1cf56466.e6ceb4",
+        "name": "Dansstopp - dance (green lights)",
+        "bridge": "ce89e8f7.c748f",
+        "sceneid": "green_lights",
+        "skipevents": false,
+        "x": 760,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e74200e.92f59",
+        "type": "hue-scene",
+        "z": "1cf56466.e6ceb4",
+        "name": "Dansstopp - pause (red lights)",
+        "bridge": "ce89e8f7.c748f",
+        "sceneid": "red_lights",
+        "skipevents": false,
+        "x": 750,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8237e42.259f18",
+        "type": "flic",
+        "z": "1cf56466.e6ceb4",
+        "name": "Flic double click",
+        "button": "250179c3.00638e",
+        "event": "ButtonDoubleClick",
+        "topic": "flic",
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "4f28ee0b.c9d5d"
+            ]
+        ]
+    },
+    {
+        "id": "4f28ee0b.c9d5d",
+        "type": "spotify",
+        "z": "1cf56466.e6ceb4",
+        "name": "Skip to next track",
+        "auth": "e7e266d2.a9adf8",
+        "api": "skipToNext",
+        "x": 530,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e7e266d2.a9adf8",
+        "type": "spotify-auth",
+        "z": "",
+        "name": "Spotify OAuth",
+        "scope": "user-read-playback-state\nuser-modify-playback-state\nstreaming\nuser-read-currently-playing"
+    },
+    {
+        "id": "250179c3.00638e",
+        "type": "Flic Button",
+        "z": "",
+        "address": "xx:xx:xx:xx:xx:xx",
+        "name": "flic",
+        "host": "127.0.0.1",
+        "port": "5551"
+    },
+    {
+        "id": "ce89e8f7.c748f",
+        "type": "hue-bridge",
+        "z": "",
+        "name": "Philips hue",
+        "bridge": "192.168.0.1",
+        "key": "1028d66426293e821ecfd9ef1a0731df",
+        "interval": "3000"
+    }
+]
