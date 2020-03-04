@@ -2,7 +2,7 @@
 
 sudo apt-get update  
 sudo apt-get upgrade  
-sudo apt-get install git libcppunit-dev uuid-dev pkg-config libncurses5-dev autoconf libmicrohttpd-dev protobuf-compiler python-protobuf bison libprotoc-dev libbison-dev flex libfl-dev libfl2 libftdi-dev libftdi1 libusb-0.1-4 libusb-dev libusb-1.0-0-dev liblo-dev libavahi-client-dev python-numpy
+sudo apt-get install git libtool libcppunit-dev uuid-dev pkg-config libncurses5-dev autoconf libmicrohttpd-dev protobuf-compiler python-protobuf bison libprotoc-dev libbison-dev flex libfl-dev libfl2 libftdi-dev libftdi1 libusb-0.1-4 libusb-dev libusb-1.0-0-dev liblo-dev libavahi-client-dev python-numpy
 
 git clone https://github.com/OpenLightingProject/ola.git ola  
 cd ola  
