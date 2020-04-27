@@ -20,4 +20,4 @@
 * [**50x50 mm aDapter for PowerCON**](50x50_mm_aDapter_pub.pdf) - Product idea, PowerCON socket adapter for retrofit applications
 * **Hue scene bridge** - Run Philips Hue scenes on multiple bridges simultaneously, web-based *(unpublished)*
 * **DMX to Broadlink RM mini 3** - Alternative to LIRC, flow for Node-RED *(unpublished, work in progress)*
-* [**Hue to DMX**](Hue_to_DMX.md) - Control DMX devices with your Philips Hue App *(work in progress)*
+* [**Hue to DMX**](Hue_to_DMX.md) - Control DMX devices with your Philips Hue App
