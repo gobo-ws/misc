@@ -1,4 +1,4 @@
-**Hue to DMX
+**Hue to DMX**
 
 Control DMX devices with your Philips Hue App.
 
