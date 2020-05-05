@@ -20,5 +20,5 @@
 * [**Dansstopp v2**](flic_spotify_hue_flow.json) - Play and pause Spotify music and lights (DMX or Philips Hue) with a Flic smart button. Flow for Node-RED
 * [**50x50 mm aDapter for PowerCON**](50x50_mm_aDapter_pub.pdf) - Product idea, PowerCON socket adapter for retrofit applications
 * **Hue scene bridge** - Run Philips Hue scenes on multiple bridges simultaneously, web-based *(unpublished)*
-* **DMX to Broadlink RM mini 3** - Alternative to LIRC, flow for Node-RED *(unpublished, work in progress)*
+* [**DMX to Broadlink RM mini 3**](https://github.com/gobo-ws/ola-trigger-led-puck-broadlink-rm3-dmx) - Alternative to LIRC, flow for Node-RED  
 * [**Hue to DMX**](Hue_to_DMX.md) - Control DMX devices with your Philips Hue App
