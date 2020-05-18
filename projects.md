@@ -9,7 +9,7 @@
 * **ola-trigger-dmx-hue-scene-bridge** - Run Philips Hue scenes on multiple bridges simultaneously *(unpublished)*
 * **[ola-trigger-hue-ble-dmx](https://github.com/gobo-ws/ola-trigger-hue-ble-dmx)** - Control Philips Hue BLE lights with DMX *(work in progress)*
 
-* **[ola-trigger-elgato-key-light-dmx](https://github.com/gobo-ws/ola-trigger-elgato-key-light-dmx)** - Control Elgato Key Light & Key Light Air with DMX *(work in progress)*
+* **[ola-trigger-elgato-key-light-dmx](https://github.com/gobo-ws/ola-trigger-elgato-key-light-dmx)** - Control Elgato Key Light & Key Light Air with DMX
   
 
 ## Various projects:  
