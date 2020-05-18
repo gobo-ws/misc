@@ -11,7 +11,7 @@
 
 * **[ola-trigger-elgato-key-light-dmx](https://github.com/gobo-ws/ola-trigger-elgato-key-light-dmx)** - Control Elgato Key Light & Key Light Air with DMX *(work in progress)*
 
-## Various projects:   
+## Various projects:  
 
 * **[Flic to DMX](https://github.com/gobo-ws/flic-dmx)** - Node-RED flow to control DMX devices with Flic buttons
 * **OLA Trigger control** - Playback and status webpage *(unpublished)*
