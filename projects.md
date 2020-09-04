@@ -10,7 +10,7 @@
 
 * **[ola-trigger-hue-ble-dmx](https://github.com/gobo-ws/ola-trigger-hue-ble-dmx)** - Control Philips Hue BLE lights with DMX *(work in progress)*
 * **[ola-trigger-elgato-key-light-dmx](https://github.com/gobo-ws/ola-trigger-elgato-key-light-dmx)** - Control Elgato Key Light & Key Light Air with DMX
-* **ola-trigger-wiz-dmx** - Coming soon...
+* **ola-trigger-wiz-dmx** - Coming soon...  
 
 
 ## Various projects:  
