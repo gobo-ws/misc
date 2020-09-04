@@ -8,7 +8,7 @@
 * **[ola-trigger-lirc-dmx](https://github.com/gobo-ws/ola-trigger-lirc-dmx)** - OLA trigger config to be used with LIRC to send infra-red commands using DMX
 * **ola-trigger-dmx-hue-scene-bridge** - Run Philips Hue scenes on multiple bridges simultaneously *(unpublished)*
 
-* **[ola-trigger-hue-ble-dmx](https://github.com/gobo-ws/ola-trigger-hue-ble-dmx)** - Control Philips Hue BLE lights with DMX *(work in progress)*
+* **[ola-trigger-hue-ble-dmx](https://github.com/gobo-ws/ola-trigger-hue-ble-dmx)** - Control Philips Hue BLE lights with DMX *(project is postponed)*
 * **[ola-trigger-elgato-key-light-dmx](https://github.com/gobo-ws/ola-trigger-elgato-key-light-dmx)** - Control Elgato Key Light & Key Light Air with DMX
 * **ola-trigger-wiz-dmx** - Coming soon...  
 
