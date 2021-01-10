@@ -29,3 +29,4 @@
 * **Hue scene bridge** - Run Philips Hue scenes on multiple bridges simultaneously, web-based *(unpublished)*
 * [**DMX to Broadlink RM mini 3**](https://github.com/gobo-ws/ola-trigger-led-puck-broadlink-rm3-dmx) - Alternative to LIRC, flow for Node-RED  
 * [**Hue to DMX**](Hue_to_DMX.md) - Control DMX devices with your Philips Hue App
+* **IP65 Zigbee ZLL dimmer 12-24 V DC** - Uses aa Zigbee chip from a IKEA Trådfri 10 Watt LED driver - Used to control LED light strings from [Jula](https://www.jula.se/catalog/hem-och-hushall/jul/julbelysning/ljusslingor-utomhus/ljusslinga-led-425433/) outdoors
