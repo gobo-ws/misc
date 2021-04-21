@@ -30,3 +30,4 @@
 * [**DMX to Broadlink RM mini 3**](https://github.com/gobo-ws/ola-trigger-led-puck-broadlink-rm3-dmx) - Alternative to LIRC, flow for Node-RED  
 * [**Hue to DMX**](Hue_to_DMX.md) - Control DMX devices with your Philips Hue App
 * [**IP65 Zigbee ZLL dimmer 12-24 V DC**](https://github.com/gobo-ws/misc/blob/master/gobo_ws_IP65_Zigbee_ZLL_dimmer.jpg) - Uses a Zigbee chip from a IKEA Trådfri 10 Watt LED driver - Controls an outdoor LED light string from [Jula](https://www.jula.se/catalog/hem-och-hushall/jul/julbelysning/ljusslingor-utomhus/ljusslinga-led-425433/)
+* * **[Current RMS](https://flows.nodered.org/flow/0be5feb1d68526c1c60e6d39d630fb47)** - Node-RED flow for interacting with the [Current RMS API](https://api.current-rms.com/doc)
