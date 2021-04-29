@@ -1,11 +1,12 @@
 {"log100": {
 "title": "Example Project",
-"error": "",
-"channelcount": 4,
+"error": "Limit levels have been exceeded",
+"channelcount": 5,
 "channels": [
- { "description":"Channel 1" , "value":" 84,716" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
- { "description":"Channel 2" , "value":" 36,265" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
- { "description":"Channel 3" , "value":" 42,570" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
- { "description":"Channel 4" , "value":" 40,917" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false }
+ { "description":"Channel 1" , "value":" 49,185" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
+ { "description":"Channel 2" , "value":" 18,872" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
+ { "description":"Channel 3" , "value":" 08,192" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
+ { "description":"Channel 4" , "value":" 79,657" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
+ { "description":"Channel 5" , "value":" 82,000" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":true , "limit":true , "battlow":false }
  ]
 }}
