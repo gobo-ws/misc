@@ -1,0 +1,11 @@
+{"log100": {
+"title": "Example Project",
+"error": "",
+"channelcount": 4,
+"channels": [
+ { "description":"Channel 1" , "value":" 84,716" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
+ { "description":"Channel 2" , "value":" 36,265" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
+ { "description":"Channel 3" , "value":" 42,570" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false },
+ { "description":"Channel 4" , "value":" 40,917" , "net":false , "lqi":0 , "timedout":false , "error":false , "warning":false , "limit":false , "battlow":false }
+ ]
+}}
