@@ -1,0 +1,196 @@
+[
+    {
+        "id": "59103885.2aa9d8",
+        "type": "tab",
+        "label": "LOG100 API",
+        "disabled": false,
+        "info": "Copyright (C) 2021 Johan Nilsson\nhttps://gobo.ws"
+    },
+    {
+        "id": "f172747a.d24998",
+        "type": "inject",
+        "z": "59103885.2aa9d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "2da1be4f.a1d3a2"
+            ]
+        ]
+    },
+    {
+        "id": "5ca04101.f980f",
+        "type": "debug",
+        "z": "59103885.2aa9d8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "bf81f858.787b48",
+        "type": "ui_text",
+        "z": "59103885.2aa9d8",
+        "group": "3d2bc44e.d4c6cc",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Cell 1:",
+        "format": "{{msg.payload.log100.channels[0].value}}",
+        "layout": "row-center",
+        "x": 510,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2da1be4f.a1d3a2",
+        "type": "http request",
+        "z": "59103885.2aa9d8",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://hostname:port/?json",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 310,
+        "y": 220,
+        "wires": [
+            [
+                "5ca04101.f980f",
+                "f506e979.2a2a98",
+                "bf81f858.787b48",
+                "4372071d.12aad8",
+                "451a05a5.c881dc",
+                "b759d2a7.cd245",
+                "7c5de51c.c0383c"
+            ]
+        ]
+    },
+    {
+        "id": "4372071d.12aad8",
+        "type": "ui_text",
+        "z": "59103885.2aa9d8",
+        "group": "3d2bc44e.d4c6cc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Cell 2:",
+        "format": "{{msg.payload.log100.channels[1].value}}",
+        "layout": "row-center",
+        "x": 510,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "451a05a5.c881dc",
+        "type": "ui_text",
+        "z": "59103885.2aa9d8",
+        "group": "3d2bc44e.d4c6cc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Cell 3:",
+        "format": "{{msg.payload.log100.channels[2].value}}",
+        "layout": "row-center",
+        "x": 510,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "b759d2a7.cd245",
+        "type": "ui_text",
+        "z": "59103885.2aa9d8",
+        "group": "3d2bc44e.d4c6cc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Cell 4:",
+        "format": "{{msg.payload.log100.channels[3].value}}",
+        "layout": "row-center",
+        "x": 510,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7c5de51c.c0383c",
+        "type": "ui_text",
+        "z": "59103885.2aa9d8",
+        "group": "3d2bc44e.d4c6cc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Cell 5:",
+        "format": "{{msg.payload.log100.channels[4].value}}",
+        "layout": "row-center",
+        "x": 510,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f506e979.2a2a98",
+        "type": "ui_text",
+        "z": "59103885.2aa9d8",
+        "group": "3d2bc44e.d4c6cc",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Title",
+        "label": "",
+        "format": "{{msg.payload.log100.title}}",
+        "layout": "row-center",
+        "x": 510,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "3d2bc44e.d4c6cc",
+        "type": "ui_group",
+        "name": "Test",
+        "tab": "9b2b8b0a.364ec8",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "9b2b8b0a.364ec8",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
