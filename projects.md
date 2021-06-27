@@ -13,8 +13,9 @@
 * **[ola-trigger-wiz-dmx](https://github.com/gobo-ws/ola-trigger-wiz-light-dmx)** - Control WiZ Connected lights with DMX *(project is postponed)*
 * **[ola-trigger-shelly1-dmx](https://github.com/gobo-ws/ola-trigger-shelly1-dmx)** - Control Shelly 1/1PM relay with DMX
 * **ola-trigger-yeelight-candela-light-dmx** - Control Yeelight Candela BLE Light with DMX *(coming soon)*  
-
   
+  
+    
   
 ## Various projects:  
 
