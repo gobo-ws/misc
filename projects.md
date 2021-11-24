@@ -1,6 +1,6 @@
 ## OLA* Trigger configuration files: 
 
-* **[ola-trigger-hue-dmx](https://github.com/gobo-ws/ola-trigger-hue-api-v2-dmx)** - Control Zigbee lights, scenes, power plugs and dimmers using a Philips Hue bridge (API V2) with DMX
+* **[ola-trigger-hue-api-v2-dmx](https://github.com/gobo-ws/ola-trigger-hue-api-v2-dmx)** - Control Zigbee lights, scenes, power plugs and dimmers using a Philips Hue bridge (API V2) with DMX
 * **[ola-trigger-hue-dmx](https://github.com/gobo-ws/ola-trigger-hue-dmx)** - Control Zigbee lights like Philips Hue and LEDVANCE Lightify/Smart+ products with DMX
 * **[ola-trigger-rgb-hue-dmx](https://github.com/gobo-ws/ola-trigger-rgb-hue-dmx)** - Control Philips Hue color lights with DMX
 * **[ola-trigger-ikea-tradfri-dmx](https://github.com/gobo-ws/ola-trigger-ikea-tradfri-dmx)** - Control IKEA Trådfri lights & control outlets with DMX
