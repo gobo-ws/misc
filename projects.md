@@ -35,8 +35,8 @@
 * [**Hue to DMX**](Hue_to_DMX.md) - Control DMX devices with your Philips Hue App
 * [**IP65 Zigbee ZLL dimmer 24 V DC**](https://github.com/gobo-ws/misc/blob/master/gobo_ws_IP65_Zigbee_ZLL_dimmer.jpg) - Uses a Zigbee chip from a [IKEA Trådfri 10 Watt LED driver](https://www.ikea.com/se/sv/p/tradfri-driver-foer-tradloes-styrning-gra-50356187/) - Controls an outdoor LED light string from [Jula](https://www.jula.se/catalog/hem-och-hushall/jul/julbelysning/ljusslingor-utomhus/ljusslinga-led-425433/)
 * **[Current RMS](https://flows.nodered.org/flow/0be5feb1d68526c1c60e6d39d630fb47)** - Node-RED flow for interacting with the [Current RMS API](https://api.current-rms.com/doc)
+* **Current RMS to Google Sheets** - Node-RED flow for sending data from [Current RMS](https://current-rms.com/) to [Google Sheets](https://docs.google.com/spreadsheets) (not public yet)  
 * **[LOG100](log100.md)** - Node-RED flow for interacting with the [LOG100 API](https://www.mantracourt.com/software/t24-range/t24log100-channel-data-logging-visualisation-software)    
-  
-   
-     
-   OLA = [Open Lighting Architecture](https://www.openlighting.org/ola/)
+---  
+
+&ast; OLA = [Open Lighting Architecture](https://www.openlighting.org/ola/)
