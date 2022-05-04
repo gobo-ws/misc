@@ -20,6 +20,7 @@
   
 ## Various projects:  
 
+* **[Shelly to OLA](https://github.com/gobo-ws/shelly-ola)** - Shelly Gen2 (ESP32) mJS script for sending DMX values via push button or switches to OLA (not yet released)
 * **["Motorized" DMX fader](https://flows.nodered.org/flow/30a25787d05e26a6b1cecddb861a4d1a)** - Node-RED flow to automate the fading of a vertical slider
 * **[Flic to DMX](https://github.com/gobo-ws/flic-dmx)** - Node-RED flow to control DMX devices with Flic buttons
 
