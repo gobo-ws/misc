@@ -10,7 +10,7 @@
 * **ola-trigger-dmx-hue-scene-bridge** - Run Philips Hue scenes on multiple bridges simultaneously *(not public)*
 * **[ola-trigger-hue-ble-dmx](https://github.com/gobo-ws/ola-trigger-hue-ble-dmx)** - Control Philips Hue BLE lights with DMX *(project is postponed)*
 * **[ola-trigger-elgato-key-light-dmx](https://github.com/gobo-ws/ola-trigger-elgato-key-light-dmx)** - Control Elgato Key Light & Key Light Air with DMX
-* **[ola-trigger-wiz-dmx](https://github.com/gobo-ws/ola-trigger-wiz-light-dmx)** - Control WiZ Connected lights and power plugs with DMX
+* **[ola-trigger-wiz-dmx](https://github.com/gobo-ws/ola-trigger-wiz-light-dmx)** - Control WiZ Connected lights (RGB+CW+WW is also supported) and power plugs with DMX
 * **[ola-trigger-shelly1-dmx](https://github.com/gobo-ws/ola-trigger-shelly1-dmx)** - Control Shelly 1/1PM/Plus 1 relay with DMX
 * **[ola-trigger-yeelight-candela-light-dmx](https://github.com/gobo-ws/ola-trigger-yeelight-candela-light-dmx)** - Control Yeelight Candela BLE Light with DMX
   
