@@ -1,4 +1,4 @@
-## OLA Trigger configuration files
+## OLA Trigger
 
 A list of OLA Trigger configuration files.
 
