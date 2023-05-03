@@ -1,9 +1,11 @@
-## OLA Trigger configuration files: 
+## OLA Trigger configuration files
+
+A list of OLA Trigger configuration files.
 
 * **[ola-trigger-hue-api-v2-dmx](https://github.com/gobo-ws/ola-trigger-hue-api-v2-dmx)** - Control Zigbee lights, scenes, power plugs and dimmers using a Philips Hue bridge (API V2) with DMX
 * **[ola-trigger-hue-dmx](https://github.com/gobo-ws/ola-trigger-hue-dmx)** - Control Zigbee lights like Philips Hue and LEDVANCE Lightify/Smart+ products with DMX
 * **[ola-trigger-rgb-hue-dmx](https://github.com/gobo-ws/ola-trigger-rgb-hue-dmx)** - Control Philips Hue color lights with DMX
-* * **[ola-trigger-hue-ble-dmx](https://github.com/gobo-ws/ola-trigger-hue-ble-dmx)** - Control Philips Hue BLE lights with DMX *(archived)*
+* **[ola-trigger-hue-ble-dmx](https://github.com/gobo-ws/ola-trigger-hue-ble-dmx)** - Control Philips Hue BLE lights with DMX *(archived)*
 * **[ola-trigger-ikea-tradfri-dmx](https://github.com/gobo-ws/ola-trigger-ikea-tradfri-dmx)** - Control IKEA Trådfri lights & control outlets with DMX
 * **[ola-trigger-crelay-dmx](https://github.com/gobo-ws/ola-trigger-crelay-dmx)** - Control relays with DMX
 * **[ola-trigger-led-puck-lirc-dmx](https://github.com/gobo-ws/ola-trigger-led-puck-lirc-dmx)** - Control IR IP68 LED Pucks with DMX
