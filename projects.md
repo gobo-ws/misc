@@ -19,6 +19,7 @@
   
 ## Various projects:  
 
+* **[Shelly - Companion](https://github.com/gobo-ws/ola-companion/blob/main/howto_shelly_relays_companion.md)** - How-to control Shelly relays with Companion
 * **[OLA - Companion](https://github.com/gobo-ws/ola-companion)** - Doing some tests by bringing together Bitfocus Companion, Node-RED and OLA
 * **Stadia-DMX** - Node-RED flow to control DMX devices with [Google Stadia Controller.](https://stadia.google.com/controller/) Just for fun! *(unpublished)*
 * **[Shelly to OLA](https://github.com/gobo-ws/shelly-ola)** - Shelly Gen2 (ESP32) mJS script for sending DMX values via push button or switches to OLA
