@@ -13,6 +13,7 @@
 * **[ola-trigger-wiz-dmx](https://github.com/gobo-ws/ola-trigger-wiz-light-dmx)** - Control WiZ Connected lights (RGB+CW+WW is also supported) and power plugs with DMX
 * **[ola-trigger-shelly1-dmx](https://github.com/gobo-ws/ola-trigger-shelly1-dmx)** - Control Shelly 1/1PM/Plus 1 relay with DMX
 * **[ola-trigger-yeelight-candela-light-dmx](https://github.com/gobo-ws/ola-trigger-yeelight-candela-light-dmx)** - Control Yeelight Candela BLE Light with DMX
+* **[ola-trigger-rigport-smartvt](https://github.com/gobo-ws/rigport-smartvt/)** - Control Rigport SmartVT products with DMX
   
   
     
