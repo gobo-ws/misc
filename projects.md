@@ -20,6 +20,7 @@
   
 ## Various projects:  
 
+* **[Rentman](https://flows.nodered.org/flow/c8e7cc5eaf681b250a5c8a016828f88a)** - Node-RED flow for interacting with the [Rentman API](https://api.rentman.net)
 * **[Shelly - Companion](https://github.com/gobo-ws/ola-companion/blob/main/howto_shelly_relays_companion.md)** - How-to control Shelly relays with Companion
 * **[OLA - Companion](https://github.com/gobo-ws/ola-companion)** - Doing some tests by bringing together Bitfocus Companion, Node-RED and OLA
 * **Stadia-DMX** - Node-RED flow to control DMX devices with [Google Stadia Controller.](https://stadia.google.com/controller/) Just for fun! *(unpublished)*
@@ -39,8 +40,7 @@
 * [**IP65 Zigbee ZLL dimmer 24 V DC**](https://github.com/gobo-ws/misc/blob/master/gobo_ws_IP65_Zigbee_ZLL_dimmer.jpg) - Uses a Zigbee chip from a [IKEA Trådfri 10 Watt LED driver](https://www.ikea.com/se/sv/p/tradfri-driver-foer-tradloes-styrning-gra-50356187/) - Controls an outdoor LED light string from [Jula](https://www.jula.se/catalog/hem-och-hushall/jul/julbelysning/ljusslingor-utomhus/ljusslinga-led-425433/)
 * **[Current RMS](https://flows.nodered.org/flow/0be5feb1d68526c1c60e6d39d630fb47)** - Node-RED flow for interacting with the [Current RMS API](https://api.current-rms.com/doc)
 * **[Current RMS to Google Sheets](https://flows.nodered.org/flow/5450c14665d41eef3b88ee8cb3992504)** - Node-RED flow for sending data from [Current RMS](https://current-rms.com/) to [Google Sheets](https://docs.google.com/spreadsheets) and vice versa 
-* **[LOG100](log100.md)** - Node-RED flow for interacting with the [LOG100 API](https://www.mantracourt.com/software/t24-range/t24log100-channel-data-logging-visualisation-software) (T24 LOG100, Broadweigh Log 100 and PROTOS Force Monitoring)
-* **[Rentman](https://flows.nodered.org/flow/c8e7cc5eaf681b250a5c8a016828f88a)** - Node-RED flow for interacting with the [Rentman API](https://api.rentman.net)     
+* **[LOG100](log100.md)** - Node-RED flow for interacting with the [LOG100 API](https://www.mantracourt.com/software/t24-range/t24log100-channel-data-logging-visualisation-software) (T24 LOG100, Broadweigh Log 100 and PROTOS Force Monitoring)    
 ---  
 
 &ast; OLA = [Open Lighting Architecture](https://www.openlighting.org/ola/)
