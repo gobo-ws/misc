@@ -5,7 +5,8 @@
 # Requires OLA, curl and jq
 # Copyright (C) 2023 Johan Nilsson. https://gobo.ws
 
-# Define the OLA server URL and universe
+# Settings
+# Define the OLA server URL and universe:
 OLA_SERVER="http://localhost:9090"
 UNIVERSE=1
 
