@@ -21,6 +21,7 @@
   
 ## Various projects:  
 
+* **[ola-dmx-control.sh](https://github.com/gobo-ws/misc/blob/master/shell-scripts/ola-dmx-control.sh)** - This bash script will update the specified DMX channels while preserving the old values on the remaining channels in the universe
 * **[Rentman](https://flows.nodered.org/flow/c8e7cc5eaf681b250a5c8a016828f88a)** - Node-RED flow for interacting with the [Rentman API](https://api.rentman.net)
 * **[Shelly - Companion](https://github.com/gobo-ws/ola-companion/blob/main/howto_shelly_relays_companion.md)** - How-to control Shelly relays with Companion
 * **[OLA - Companion](https://github.com/gobo-ws/ola-companion)** - Doing some tests by bringing together Bitfocus Companion, Node-RED and OLA
