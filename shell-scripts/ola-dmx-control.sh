@@ -22,13 +22,13 @@ update_dmx() {
   NEW_VALUE=$2
 
   # Retrieve current DMX data
-  DMX_DATA=$(curl -s "${OLA_SERVER}/get_dmx?u=${UNIVERSE}" | jq -r '.dmx | @csv')
+  CURRENT_DMX=$(curl -s "${OLA_SERVER}/get_dmx?u=${UNIVERSE}" | jq -r '.dmx | @csv' | tr ',' ' ')
 
-  # Update specified channel with the new value
-  DMX_DATA=$(echo $DMX_DATA | awk -v channel="$CHANNEL_TO_UPDATE" -v value="$NEW_VALUE" 'BEGIN {FS=","; OFS=","} { $channel = value } 1')
+  # Construct the DMX data string
+  DMX_DATA=$(echo "$CURRENT_DMX" | awk -v channel="$CHANNEL_TO_UPDATE" -v value="$NEW_VALUE" 'BEGIN {OFS=","} { $channel = value } 1')
 
-  # Send the updated DMX data back to the OLA server
-  curl -s -X POST -d "u=${UNIVERSE}&d=${DMX_DATA}" "${OLA_SERVER}/set_dmx"
+  # Send the updated DMX data back to the OLA server using ola_streaming_client
+  echo "$DMX_DATA" | ola_streaming_client -u $UNIVERSE
   echo "Updated channel ${CHANNEL_TO_UPDATE} to ${NEW_VALUE}"
 }
 
