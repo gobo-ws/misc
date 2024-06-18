@@ -9,5 +9,5 @@ Easily create a custom-designed DMX wall panel using the [Shelly Plus I4](https:
 * [Shelly Plus I4 DMX GitHub Repository](https://github.com/gobo-ws/shelly-ola/)
 
 #### 💡 Enhance Your Lighting Control
-Explore these repositories to integrate Shelly devices with your DMX setup, enhancing your lighting control capabilities.
+Explore these repositories to integrate Shelly devices with your DMX setup.
 
