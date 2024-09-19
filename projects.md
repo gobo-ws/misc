@@ -15,7 +15,7 @@
 * **[ola-trigger-yeelight-candela-light-dmx](https://github.com/gobo-ws/ola-trigger-yeelight-candela-light-dmx)** - Control Yeelight Candela BLE Light with DMX
 * **[ola-trigger-rigport-smartvt](https://github.com/gobo-ws/rigport-smartvt/)** - Control Rigport SmartVT products with DMX
 * **[ola-trigger-ir-dmx ](https://github.com/gobo-ws/ola-trigger-ir-dmx)** - DMX to Broadlink RM mini 3/4 revised version. Control [Uyuni Lighting LED candles](https://github.com/gobo-ws/ola-trigger-ir-dmx/tree/main/uyuni) for instance. With flow for Node-RED
-  
+* **[ola-trigger-ir-dmx ](https://github.com/gobo-ws/ola-trigger-ir-dmx)** - DMX to Broadlink RM mini 3/4 revised version. Control [Uyuni Lighting LED candles](https://github.com/gobo-ws/ola-trigger-ir-dmx/tree/main/uyuni) for instance. With flow for Node-RED  
   
     
   
