@@ -21,7 +21,7 @@
   
 ## Various projects:  
 
-* **[CueTrigger for Shelly](https://github.com/gobo-ws/cuetrigger-for-shelly)** - Script that integrates Shelly devices with a switch or pushbutton to wirelessly trigger or stop cues on CueCore2, CueCore3, QuadCore, or Cuety LPU-2 devices from Visual Productions
+* **[CueTrigger for Shelly](https://github.com/gobo-ws/cuetrigger-for-shelly)** - Script that integrates [Shelly](https://www.shelly.com) devices with a switch or pushbutton to wirelessly trigger or stop cues on CueCore2, CueCore3, QuadCore, or Cuety LPU-2 devices from [Visual Productions](https://www.visualproductions.nl)
 * **[ola-dmx-control.sh](https://github.com/gobo-ws/misc/blob/master/shell-scripts/ola-dmx-control.sh)** - This bash script will update the specified DMX channels while preserving the old values on the remaining channels in the universe
 * **[Rentman](https://flows.nodered.org/flow/c8e7cc5eaf681b250a5c8a016828f88a)** - Node-RED flow for interacting with the [Rentman API](https://api.rentman.net)
 * **[Shelly - Companion](https://github.com/gobo-ws/ola-companion/blob/main/howto_shelly_relays_companion.md)** - How-to control Shelly relays with Companion
