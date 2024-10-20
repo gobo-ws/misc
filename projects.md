@@ -1,4 +1,4 @@
-## OLA* Trigger configuration files: 
+## Open Lighting Architecture (OLA) Trigger configuration files: 
 
 * **[ola-trigger-hue-api-v2-dmx](https://github.com/gobo-ws/ola-trigger-hue-api-v2-dmx)** - Control Zigbee lights, scenes, power plugs and dimmers using a Philips Hue bridge (API V2) with DMX
 * **[ola-trigger-hue-dmx](https://github.com/gobo-ws/ola-trigger-hue-dmx)** - Control Zigbee lights like Philips Hue and LEDVANCE Lightify/Smart+ products with DMX
@@ -17,10 +17,11 @@
 * **[ola-trigger-ir-dmx ](https://github.com/gobo-ws/ola-trigger-ir-dmx)** - DMX to Broadlink RM mini 3/4 revised version. Control [Uyuni Lighting LED candles](https://github.com/gobo-ws/ola-trigger-ir-dmx/tree/main/uyuni) for instance. With flow for Node-RED
 * **[ola-trigger-shelly-dali-dmx](https://github.com/gobo-ws/ola-trigger-shelly-dali-dmx)** - Control DALI lights using Shelly DALI Dimmer Gen3 with DMX
   
-    
+---      
   
 ## Various projects:  
 
+* **[CueTrigger for Shelly](https://github.com/gobo-ws/cuetrigger-for-shelly)** - Script that integrates Shelly devices with a switch or pushbutton to wirelessly trigger or stop cues on CueCore2, CueCore3, QuadCore, or Cuety LPU-2 devices from Visual Productions
 * **[ola-dmx-control.sh](https://github.com/gobo-ws/misc/blob/master/shell-scripts/ola-dmx-control.sh)** - This bash script will update the specified DMX channels while preserving the old values on the remaining channels in the universe
 * **[Rentman](https://flows.nodered.org/flow/c8e7cc5eaf681b250a5c8a016828f88a)** - Node-RED flow for interacting with the [Rentman API](https://api.rentman.net)
 * **[Shelly - Companion](https://github.com/gobo-ws/ola-companion/blob/main/howto_shelly_relays_companion.md)** - How-to control Shelly relays with Companion
@@ -44,5 +45,3 @@
 * **[Current RMS to Google Sheets](https://flows.nodered.org/flow/5450c14665d41eef3b88ee8cb3992504)** - Node-RED flow for sending data from [Current RMS](https://current-rms.com/) to [Google Sheets](https://docs.google.com/spreadsheets) and vice versa 
 * **[LOG100](log100.md)** - Node-RED flow for interacting with the [LOG100 API](https://www.mantracourt.com/software/t24-range/t24log100-channel-data-logging-visualisation-software) (T24 LOG100, Broadweigh Log 100 and PROTOS Force Monitoring)    
 ---  
-
-&ast; OLA = [Open Lighting Architecture](https://www.openlighting.org/ola/)
