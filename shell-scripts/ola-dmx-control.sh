@@ -1,41 +1,35 @@
 #!/bin/bash
 
-# ola-dmx-control.sh
-# This bash script will update the specified DMX channels while preserving the old values on the remaining channels in the universe.
-# Requires OLA, curl and jq
-# Copyright (C) 2023 Johan Nilsson. https://gobo.ws
-
 # Settings
-# Define the OLA server URL and universe:
 OLA_SERVER="http://localhost:9090"
 UNIVERSE=1
+SLEEP_DURATION=0.05  # 50 ms delay between updates
 
-# Check if the user provided channel-value pairs as arguments
+# Validate arguments
 if [ "$#" -lt 2 ] || [ $(( $# % 2 )) -ne 0 ]; then
-  echo "Usage: $0 <channel_number> <new_value> [<channel_number> <new_value> ...]"
   exit 1
 fi
 
-# Function to update DMX data
-update_dmx() {
+# Retrieve current DMX data once
+CURRENT_DMX=$(curl -s "${OLA_SERVER}/get_dmx?u=${UNIVERSE}" | jq -r '.dmx | @csv' | tr ',' ' ')
+
+# Exit if DMX data retrieval fails
+[ -z "$CURRENT_DMX" ] && exit 1
+
+# Update channel values locally
+while [ $# -gt 0 ]; do
   CHANNEL_TO_UPDATE=$1
   NEW_VALUE=$2
 
-  # Retrieve current DMX data
-  CURRENT_DMX=$(curl -s "${OLA_SERVER}/get_dmx?u=${UNIVERSE}" | jq -r '.dmx | @csv' | tr ',' ' ')
+  # Skip invalid inputs
+  if [ "$CHANNEL_TO_UPDATE" -gt 0 ] && [ "$CHANNEL_TO_UPDATE" -le 512 ] && [ "$NEW_VALUE" -ge 0 ] && [ "$NEW_VALUE" -le 255 ]; then
+    CURRENT_DMX=$(echo "$CURRENT_DMX" | awk -v channel="$CHANNEL_TO_UPDATE" -v value="$NEW_VALUE" 'BEGIN {OFS=" "} { $channel = value } 1')
+    sleep $SLEEP_DURATION  # Add delay between updates
+  fi
 
-  # Construct the DMX data string
-  DMX_DATA=$(echo "$CURRENT_DMX" | awk -v channel="$CHANNEL_TO_UPDATE" -v value="$NEW_VALUE" 'BEGIN {OFS=","} { $channel = value } 1')
-
-  # Send the updated DMX data back to the OLA server using ola_streaming_client
-  echo "$DMX_DATA" | ola_streaming_client -u $UNIVERSE
-  echo "Updated channel ${CHANNEL_TO_UPDATE} to ${NEW_VALUE}"
-}
-
-# Loop through the provided channel-value pairs
-while [ $# -gt 0 ]; do
-  update_dmx $1 $2
-
-  # Shift the arguments to process the next channel-value pair
+  # Shift to the next pair
   shift 2
 done
+
+# Send updated DMX data to OLA server
+echo "$CURRENT_DMX" | tr ' ' ',' | ola_streaming_client -u $UNIVERSE
