@@ -36,7 +36,7 @@
 * **OLA playback page** - Webpage with buttons for controlling DMX values and recordings *(not public)*
 * **Dansstopp** - Webpage with a playback panel for Spotify with the opportunity to set different DMX values upon play & pause *(Used on my daughter's birthday party, unpublished)*
 * **[Dansstopp v2](flic_spotify_hue_flow.json)** - Play and pause Spotify music and lights (DMX or Philips Hue) with a Flic smart button. Flow for Node-RED
-* **[Dansstopp 2025](dansstopp-2025.md)** - Simple solution for Flic smart button and Astera App (unpublished)
+* **[Dansstopp 2025](dansstopp-2025.md)** - Simple solution for using a Flic smart button with the Astera app
 * **[50x50 mm aDapter for PowerCON](50x50_mm_aDapter_pub.pdf)** - Product idea, PowerCON socket adapter for retrofit applications
 * **Hue scene bridge** - Run Philips Hue scenes on multiple bridges simultaneously, web-based *(not public)*
 * **[DMX to Broadlink RM mini 3](https://github.com/gobo-ws/ola-trigger-led-puck-broadlink-rm3-dmx)** - Alternative to LIRC, flow for Node-RED *(archived)*     
