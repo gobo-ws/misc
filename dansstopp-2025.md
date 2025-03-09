@@ -22,8 +22,9 @@ With a **Flic button**, you can **pause the music** while simultaneously **trigg
      http://localhost:8080/api/launch?uuid=***
      ```
      *(Find the corresponding UUID for the scene "Just Red" on the Astera API website)*
-
-     ![Astera Flic Button Setup](dansstopp-2025.jpg)  
+     
+    <br>
+    <img src="dansstopp-2025.jpg" alt="Astera Flic Button Setup" width="500">
 
 ---
 
