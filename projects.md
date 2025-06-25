@@ -16,6 +16,7 @@
 * **[ola-trigger-rigport-smartvt](https://github.com/gobo-ws/rigport-smartvt/)** - Control Rigport SmartVT products with DMX
 * **[ola-trigger-ir-dmx ](https://github.com/gobo-ws/ola-trigger-ir-dmx)** - DMX to Broadlink RM mini 3/4 revised version. Control [Uyuni Lighting LED candles](https://github.com/gobo-ws/ola-trigger-ir-dmx/tree/main/uyuni) for instance. With flow for Node-RED
 * **[ola-trigger-shelly-dali-dmx](https://github.com/gobo-ws/ola-trigger-shelly-dali-dmx)** - Control DALI lights using Shelly DALI Dimmer Gen3 with DMX
+* **[ola-trigger-govee-dmx](https://github.com/gobo-ws/ola-trigger-govee-dmx)** - Control Govee device with DMX
   
 ---      
   
