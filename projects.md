@@ -22,6 +22,7 @@
   
 ## Various projects:  
 
+* **[Node-RED + OLA: Smart DMX Channel Update Subflow](https://github.com/gobo-ws/dmx-channel-update-nr-subflow)** - This Node-RED subflow receives a DMX update string (e.g. "255,,128,,,1") via msg.payload and sends an optimized update to an OLA (Open Lighting Architecture) universe
 * **[FireDMXbase – DMX over Internet](https://github.com/gobo-ws/FireDMXbase)** - This solution allows you to control DMX lighting remotely by using Firebase as a secure bridge, with no need for open incoming ports or a VPN
 * **[CueTrigger for Shelly](https://github.com/gobo-ws/cuetrigger-for-shelly)** - Script that integrates [Shelly](https://www.shelly.com) devices with a switch or pushbutton to wirelessly trigger or stop cues on CueCore2, CueCore3, QuadCore, or Cuety LPU-2 devices from [Visual Productions](https://www.visualproductions.nl)
 * **[ola-dmx-control.sh](https://github.com/gobo-ws/misc/blob/master/shell-scripts/ola-dmx-control.sh)** - This bash script will update the specified DMX channels while preserving the old values on the remaining channels in the universe
